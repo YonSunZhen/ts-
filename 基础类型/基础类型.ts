@@ -2,7 +2,7 @@
 // let list: number[] = [1, 2, 3];
 // let list: Array<number> = [1, 2, 3];
 
-// 元祖
+// 元组
 let x: [string, number];
 x = ['hello', 10];//正确
 // x = [10, 'hello'];错误

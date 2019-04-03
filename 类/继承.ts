@@ -1,7 +1,7 @@
 class Animal {
     name: string;
     constructor(theName: string) { this.name = theName; }
-    move(distanceInMeters: number) {
+    move(distanceInMeters: number): void {
         console.log(`${this.name} moved ${distanceInMeters}m.`);
     }
 }

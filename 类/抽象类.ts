@@ -12,7 +12,7 @@ class AccountingDepartment extends Department {
     }
     printMeeting(): void {
         console.log('The Accounting Department meets each Monday at 10am.');
-    }//实现父类中的抽象方法
+    }//实现父类中的抽象方法，子类必须实现父类中的抽象方法
     generateReports(): void {
         console.log('Generating accounting reports...');
     }
